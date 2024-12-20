@@ -429,6 +429,44 @@
       font-size: 1.2rem;
     }
   }
+
+  /* tambahan */
+
+  .container {
+    text-align: center; 
+}
+
+
+  .menu {
+    display: flex;
+    flex-wrap: wrap; /* Menjaga agar item menu bisa membungkus jika diperlukan */
+    justify-content: center; /* Meratakan menu item secara horizontal */
+    align-items: center; /* Meratakan item menu secara vertikal */
+    gap: 20px;
+}
+.menu-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.menu-item img {
+  width: 100%; /* Menyusun gambar agar lebar memenuhi kontainer */
+  height: 150px; /* Menetapkan tinggi tetap pada gambar */
+  object-fit: cover; /* Memastikan gambar terpotong dengan rapi dan tidak terdistorsi */
+  border-radius: 8px;
+}
+.menu-item h3 {
+    margin: 10px 0;
+}
+.menu-item p {
+    font-weight: bold;
+    color: #ff5722;
+}
+
+
   /* Mobile Phone */
   @media (max-width: 450px) {
     html {
