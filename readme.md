@@ -8,4 +8,4 @@ It is hosted using GitHub Pages.
 - Hosted on GitHub Pages
 
 ## How to View
-Visit the website at: [https://yourusername.github.io/my-static-website/](https://yourusername.github.io/my-static-website/)
+Visit the website at: [https://artsao.github.io/static-web-si/](https://artsao.github.io/static-web-si/)
