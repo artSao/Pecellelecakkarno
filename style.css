@@ -125,7 +125,7 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url("images/header.jpg");
+    background-image: url("images/bannerN.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -183,6 +183,7 @@
   /* about section */
   .about,
   .info,
+  .menu,
   .contact {
     padding: 7rem 7% 1.4rem;
   }
@@ -443,6 +444,15 @@
     justify-content: center; /* Meratakan menu item secara horizontal */
     align-items: center; /* Meratakan item menu secara vertikal */
     gap: 20px;
+}
+
+
+.menu a{
+  color: #ddd;
+}
+
+.menu a:hover{
+background-color: #666;
 }
 .menu-item {
     border: 1px solid #ddd;
