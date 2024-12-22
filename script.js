@@ -28,3 +28,18 @@ document.addEventListener("click", function (e) {
     searchForm.classList.remove("active");
   }
 });
+
+function kirimPesan(event) {
+  event.preventDefault(); // Mencegah form reload halaman
+
+  // Ambil data dari input
+  const nama = document.getElementById("nama").value;
+  const pesan = document.getElementById("pesan").value;
+
+  // Format URL WhatsApp
+  const url = `https://wa.me/6287790938791?text=Halo%20saya%20${encodeURIComponent(nama)}%2C%20${encodeURIComponent(pesan)}`;
+
+  // Redirect ke WhatsApp
+  window.open(url, "_blank");
+}
+
