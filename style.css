@@ -3,6 +3,7 @@
     --bg: #228b22;
     --latar: #ffffff;
     --kuning: #FFC145;
+    --merah: #FF2929;
   }
   
   * {
@@ -27,7 +28,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1.4rem 7%;
-    background-color: #FF2929;
+    background-color: var(--merah);
     border-bottom: 1px solid var(--latar);
     position: fixed;
     top: 0;
@@ -55,9 +56,9 @@
     padding: 8px;
   }
   
-  .navbar .navbar-nav a:hover {
-    color: var(--kuning);
-  }
+  /* .navbar .navbar-nav a:hover {
+    /* color: var(--kuning); */
+  /* } */ 
   
   .navbar .navbar-nav a::after {
     content: "";
@@ -313,7 +314,7 @@
   
   /* footer */
   footer {
-    background-color: var(--bg);
+    background-color: var(--merah);
     text-align: center;
     padding: 1rem 3rem;
     margin-top: 3rem;

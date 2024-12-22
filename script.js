@@ -42,4 +42,3 @@ function kirimPesan(event) {
   // Redirect ke WhatsApp
   window.open(url, "_blank");
 }
-
