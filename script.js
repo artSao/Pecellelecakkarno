@@ -37,7 +37,7 @@ function kirimPesan(event) {
   const pesan = document.getElementById("pesan").value;
 
   // Format URL WhatsApp
-  const url = `https://wa.me/6287790938791?text=Halo%20saya%20${encodeURIComponent(nama)}%2C%20${encodeURIComponent(pesan)}`;
+  const url = `https://wa.me/6281369956227?text=Halo%20saya%20${encodeURIComponent(nama)}%2C%20${encodeURIComponent(pesan)}`;
 
   // Redirect ke WhatsApp
   window.open(url, "_blank");
